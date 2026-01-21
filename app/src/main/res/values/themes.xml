@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Platform.V23.Theme.LibChecker" parent="Theme.Material3.Light.LibChecker" />
+
+  <style name="Platform.Theme.LibChecker" parent="Platform.V23.Theme.LibChecker" />
+
+  <style name="Base.AppTheme" parent="Platform.Theme.LibChecker">
+    <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Surface</item>
+    <item name="preferenceTheme">@style/PreferenceThemeOverlay.Rikka.Material3</item>
+    <item name="bottomSheetDialogTheme">@style/CustomBottomSheetDialog</item>
+    <item name="dropDownListViewStyle">@style/Widget.LC.PopupMenu</item>
+
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+
+    <item name="bottomSheetHeaderHandlerColor">@color/bottom_sheet_header_handler_md3</item>
+    <item name="bottomSheetHeaderHandlerColorActivated">
+      @color/bottom_sheet_header_handler_activated_md3
+    </item>
+    <item name="albumCardViewColorSurface">@android:color/transparent</item>
+    <item name="albumCardBorderColor">?attr/colorOutline</item>
+
+    <item name="chipStyle">@style/App.LibChip.Material3</item>
+  </style>
+
+  <style name="Theme" parent="Base.AppTheme" />
+
+</resources>
